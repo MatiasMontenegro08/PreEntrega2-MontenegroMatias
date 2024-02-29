@@ -15,7 +15,7 @@
 h2{
     font-size: 1.1rem;
     padding: 10px;
-    margin-bottom: 0;
+    margin: 20px;
     text-transform: uppercase;
     text-align: center;
 }
@@ -92,11 +92,12 @@ h2{
     color: #EC0C8C;
     text-align: center;
     justify-content: center;
+    margin-top: 10px;
 }
 
 /* Metodos */
 .metodo__img{
-    width: 17rem;
+    width: 13rem;
 }
 
 /* Footer */
