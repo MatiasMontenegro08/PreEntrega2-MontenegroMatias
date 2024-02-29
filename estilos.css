@@ -12,7 +12,7 @@
 }
 
 
-h2{
+h1, h2{
     font-size: 1.1rem;
     padding: 10px;
     margin: 20px;
@@ -93,11 +93,13 @@ h2{
     text-align: center;
     justify-content: center;
     margin-top: 10px;
+    border: none;
 }
 
 /* Metodos */
 .metodo__img{
     width: 13rem;
+    margin: 15px;
 }
 
 /* Footer */
@@ -127,4 +129,17 @@ footer{
 .footer__texto{
     font-size: 0.8rem;
     margin: 0;
+}
+
+.texto{
+    font-weight: normal;
+    text-align: justify;
+    font-size: 0.9rem;
+}
+.pregunta{
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 0;
+    padding: 0;
 }
