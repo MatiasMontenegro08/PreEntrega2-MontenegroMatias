@@ -1,6 +1,6 @@
 @font-face {
     font-family: FiraSans-Regular;
-    src: url(./Font/FiraSans-Regular.ttf);
+    src: url(./assets/fonts/FiraSans-Regular.ttf);
 }
 
 *{
@@ -8,4 +8,122 @@
     padding: 0;
     box-sizing: border-box;
     font-family: FiraSans-Regular;
+    font-size: 16px;
+}
+
+
+h2{
+    font-size: 1.1rem;
+    padding: 10px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/* Barra navegacion */
+.navbar{
+    background-color: #FFF4B9;
+}
+
+.navbar-brand img{
+    width: 150px;
+    margin-top: 1.2rem;
+}
+
+.nav-link:hover{
+    color: magenta;
+}
+
+/* Carrusel */
+.carousel-caption{
+    color: black;
+}
+
+/* Productos destacados */
+.container-fluid{
+    margin-bottom: 1.2rem;
+    text-align: center;
+}
+.contenedor{
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.producto{
+    width: 12rem;
+    height: 280px;
+}
+.card{
+    width: 12rem;
+    height: 12rem;
+    background-size: cover;
+    background-position: center;
+    border: 5px solid #FFF4B9;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+.producto__titulo{
+    font-size: 1rem;
+}
+.producto__precio{
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+.producto__img1{
+    background-image: url(./assets/img/Destacado1.png);
+}
+.producto__img2{
+    background-image: url(./assets/img/Destacado2.png);
+}
+.producto__img3{
+    background-image: url(./assets/img/Destacado3.png);
+}
+.producto__img4{
+    background-image: url(./assets/img/Destacado4.png);
+}
+
+.boton{
+    width: 150px;
+    height: 50px;
+    text-decoration: none;
+    background-color: #FFF4B9;
+    padding: 10px;
+    border-radius: 15px;
+    color: #EC0C8C;
+    text-align: center;
+    justify-content: center;
+}
+
+/* Metodos */
+.metodo__img{
+    width: 17rem;
+}
+
+/* Footer */
+footer{
+    background-color: #FFF4B9;
+    padding: 10px;
+}
+.subtitulo{
+    font-size: 0.9rem;
+}
+.footer__nav__lista{
+    list-style: none;
+}
+.footer__nav__lista a{
+    text-decoration: none;
+    font-size: 0.8rem;
+    color: black;
+}
+.col img{
+    width: 50px;
+}
+.redes i{
+    font-size: 1.5rem;
+    color: black;
+    margin-bottom: 10px;
+}
+.footer__texto{
+    font-size: 0.8rem;
+    margin: 0;
 }
