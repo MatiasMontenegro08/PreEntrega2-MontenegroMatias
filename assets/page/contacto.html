@@ -24,7 +24,8 @@
             <div class="container-fluid">
                 <a class="navbar-brand" href="../../index.html"><img src="../img/Logo sublimarte.png"
                         alt="Logo Sublimarte"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapsibleNavbar">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="collapsibleNavbar">
@@ -51,33 +52,40 @@
     </header>
 
     <!-- main -->
-    <main class="container-fluid">
+    <main class="main-nospreg">
         <h1>CONTACTO</h1>
-        <p class="text-center">
-            <strong>¿Necesitas ayuda?</strong> Envíanos un mensaje e intentaremos responderte lo
-            antes posible
-        </p>
-        <form action="">
-            <div class="mb-3 container-fluid">
-                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nombre">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12 col-lg-4 offset-lg-4">
+                    <p class="text-center">
+                        <strong>¿Necesitas ayuda?</strong> Envíanos un mensaje e intentaremos responderte lo
+                        antes posible
+                    </p>
+                    <form action="">
+                        <div class="mb-3 container-fluid">
+                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nombre">
+                        </div>
+                        <div class="mb-3 container-fluid">
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Correo">
+                        </div>
+                        <div class="mb-3 container-fluid">
+                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Celular">
+                        </div>
+                        <div class="mb-3 container-fluid">
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                                placeholder="Mensaje"></textarea>
+                        </div>
+                        <input class="boton" type="button" value="Enviar">
+                    </form>
+                </div>
             </div>
-            <div class="mb-3 container-fluid">
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Correo">
-            </div>
-            <div class="mb-3 container-fluid">
-                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Celular">
-            </div>
-            <div class="mb-3 container-fluid">
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Mensaje"></textarea>
-            </div>
-            <input class="boton" type="button" value="Enviar">
-        </form>
+        </div>
     </main>
     <!-- Footer -->
     <footer>
-        <div class="container justify-content-start">
-            <div class="row flex-column">
-                <div class="col">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
                     <h3 class="subtitulo">NAVEGACIÓN</h3>
                     <nav class="footer__nav">
                         <ul class="footer__nav__lista">
@@ -89,7 +97,7 @@
                         </ul>
                     </nav>
                 </div>
-                <div class="col">
+                <div class="col-md-4">
                     <h3 class="subtitulo">MEDIOS DE PAGO</h3>
                     <img src="../img/Mastercard.png" alt="masterCard">
                     <img src="../img/Mercado  pago.png" alt="mercadoPago">
@@ -102,7 +110,7 @@
                     <img src="../img/Correo arg.png" alt="Logo correo argentino">
                     <img src="../img/Oca.png" alt="Logo oca">
                 </div>
-                <div class="col">
+                <div class="col-md-4">
                     <h3 class="subtitulo">NUESTRAS REDES</h3>
                     <a href="https://www.facebook.com/subli.marte.3538" target="_blank" class="redes">
                         <i class="fa-brands fa-facebook"></i></a>

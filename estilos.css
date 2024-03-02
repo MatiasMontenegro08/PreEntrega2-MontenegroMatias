@@ -12,12 +12,18 @@
 }
 
 
-h1, h2{
+h1 {
     font-size: 1.1rem;
     padding: 10px;
     margin: 20px;
     text-transform: uppercase;
     text-align: center;
+}
+h2{
+    font-size: 1.1rem;
+    padding: 10px;
+    margin: 20px;
+    text-align: left;
 }
 
 /* Barra navegacion */
@@ -47,20 +53,16 @@ h1, h2{
 .contenedor{
     gap: 10px;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 .producto{
-    width: 12rem;
+    width: 11rem;
     height: 280px;
 }
 .card{
-    width: 12rem;
-    height: 12rem;
-    background-size: cover;
-    background-position: center;
     border: 5px solid #FFF4B9;
-    border-radius: 20px;
-    margin-bottom: 10px;
+    box-shadow: 2px 3px 10px rgb(129, 129, 129);
+    margin-bottom: 50px;
 }
 .producto__titulo{
     font-size: 1rem;
@@ -92,14 +94,12 @@ h1, h2{
     color: #EC0C8C;
     text-align: center;
     justify-content: center;
-    margin-top: 10px;
     border: none;
 }
 
 /* Metodos */
-.metodo__img{
-    width: 13rem;
-    margin: 15px;
+.metodo img{
+    width: 18rem;
 }
 
 /* Footer */
@@ -116,12 +116,16 @@ footer{
 .footer__nav__lista a{
     text-decoration: none;
     font-size: 0.8rem;
-    color: black;
+    color: rgb(59, 59, 59);
 }
-.col img{
+.footer__nav__lista a:hover{
+    color: magenta;
+}
+footer img{
     width: 50px;
+    justify-content: left;
 }
-.redes i{
+footer i{
     font-size: 1.5rem;
     color: black;
     margin-bottom: 10px;
@@ -135,11 +139,73 @@ footer{
     font-weight: normal;
     text-align: justify;
     font-size: 0.9rem;
+    margin: 20px;
 }
 .pregunta{
     font-size: 1rem;
     font-weight: bold;
     text-align: left;
-    margin-left: 0;
     padding: 0;
+    margin: 20px;
+}
+
+@media only screen and (min-width: 993px){
+
+    h1 {
+        font-size: 2.1rem;
+        padding: 10px;
+        margin: 20px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    h2{
+        font-size: 2rem;
+        padding: 10px;
+        margin: 20px;
+        text-align: left;
+    }
+    .main-nospreg{
+        height: 80vh;
+    }
+    .metodo img{
+        width: 24rem;
+        padding: 20px;
+    }
+    .subtitulo{
+        font-size: 1.3rem;
+    }
+    .footer__nav__lista a{
+        font-size: 1.2rem;
+    }
+    footer img{
+        width: 70px;
+        justify-content: left;
+    }
+    footer i{
+        font-size: 2rem;
+        margin-bottom: 10px;
+    }
+    .footer__texto{
+        font-size: 1rem;
+    }
+    
+    .texto{
+        font-weight: normal;
+        text-align: justify;
+        font-size: 0.9rem;
+        margin: 20px;
+    }
+    .pregunta{
+        font-size: 1rem;
+        font-weight: bold;
+        text-align: left;
+        padding: 0;
+        margin: 20px;
+    }
+    .texto{
+        font-size: 0.9rem;
+    }
+    .pregunta{
+        font-size: 1rem;
+    }
 }
